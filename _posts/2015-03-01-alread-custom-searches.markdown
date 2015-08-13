@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Custom searches for Alfred app"
-date:   2015-03-01 23:08:00
-categories: tools
+title: Custom searches for Alfred app
+date: 2015-03-01 23:08:00
+category: tools
 ---
 
 I'm a big fan of the [Alfred app](http://www.alfredapp.com/) for OSX. I've made a couple of custom searches recently that I find really useful.
