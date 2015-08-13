@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Roll the dice"
-date:   2014-01-24 13:32:00
-categories: micro project
+title: Roll the dice
+date: 2014-01-24 13:32:00
+category: micro-project
 ---
 
 At the weekend I was at a restaurant with my family and my son found a board game which he wanted to play. It was a simple snake 'n' ladders style game, but the counters and dice were not available. To fix this we tore some paper and coloured it in for make counters and I downloaded an [iPhone app called Dice](https://itunes.apple.com/gb/app/dice/id429412843?mt=8) which did just what I needed.
