@@ -6,8 +6,7 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="/css/syntax.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
@@ -15,6 +14,7 @@
     <header>
       <p class="title"><a href="/">{{ site.name }}</a></p>
       <a class="extra" href="/">home</a>
+      <a class="extra nav-toggle" href="#">nav</a>
     </header>
 
     {{ content }}
@@ -35,5 +35,17 @@
     </footer>
   </main>
 
+<script>
+var n = document.querySelectorAll('.nav-toggle');
+var b = document.querySelector('body');
+
+n.forEach = [].forEach;
+
+n.forEach(function(nav) {
+  nav.addEventListener('click', function() {
+    b.classList.toggle('menu-open');
+  }, false);
+});
+</script>
 </body>
 </html>
