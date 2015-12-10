@@ -14,7 +14,6 @@
     <header>
       <p class="title"><a href="/">{{ site.name }}</a></p>
       <a class="extra" href="/">home</a>
-      <a class="extra nav-toggle" href="#">nav</a>
     </header>
 
     {{ content }}
@@ -35,17 +34,5 @@
     </footer>
   </main>
 
-<script>
-var n = document.querySelectorAll('.nav-toggle');
-var b = document.querySelector('body');
-
-n.forEach = [].forEach;
-
-n.forEach(function(nav) {
-  nav.addEventListener('click', function() {
-    b.classList.toggle('menu-open');
-  }, false);
-});
-</script>
 </body>
 </html>
